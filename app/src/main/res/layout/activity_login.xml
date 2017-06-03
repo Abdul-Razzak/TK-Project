@@ -16,7 +16,7 @@
         android:padding="20dp" >
 
     <EditText
-        android:id="@+id/UserName"
+        android:id="@+id/eUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
@@ -26,7 +26,7 @@
         android:textColorHint="#cccccc" />
 
     <EditText
-        android:id="@+id/Password"
+        android:id="@+id/ePassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="-2dp"
@@ -37,7 +37,7 @@
         android:textColorHint="#cccccc" />
 
         <Button
-            android:id="@+id/Login"
+            android:id="@+id/ebuttonLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
