@@ -19,7 +19,9 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".AfterLoginActivity" />
-        <activity android:name=".VenuePageAcivity"></activity>
+        <activity android:name=".VenuePageAcivity" />
+        <activity android:name=".MyProfileActivity" />
+        <activity android:name=".ChangePasswordActivity"></activity>
     </application>
 
 </manifest>
