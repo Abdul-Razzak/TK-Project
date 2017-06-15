@@ -54,7 +54,7 @@ public class RegisterActivity extends AppCompatActivity {
                     password.requestFocus();
                 }
 
-
+/*changed VenuePageActivity intent to LoginActivity intent*/
                 if(userError == false && passError == false && emailError == false)
                 {
                     Toast.makeText(getApplicationContext(), "Successfully Registered", Toast.LENGTH_SHORT).show();
