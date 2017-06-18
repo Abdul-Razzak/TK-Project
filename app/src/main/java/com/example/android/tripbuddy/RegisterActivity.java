@@ -58,7 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
                 if(userError == false && passError == false && emailError == false)
                 {
                     Toast.makeText(getApplicationContext(), "Successfully Registered", Toast.LENGTH_SHORT).show();
-                    Intent it=new Intent(getApplicationContext(), LoginActivity.class);
+                    Intent it=new Intent(getApplicationContext(), MapsActivity.class);
                     startActivity(it);
 
                 }
