@@ -43,7 +43,8 @@ public class LoginActivity extends AppCompatActivity {
 
                 if(userError == false && passError == false)
                 {
-                    Intent it=new Intent(getApplicationContext(), HomePageActivity.class);
+                    Intent it=new Intent(getApplicationContext(), MapsActivity.class);
+
                     startActivity(it);
 
                 }
