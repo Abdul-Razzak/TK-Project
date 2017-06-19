@@ -7,11 +7,14 @@
     tools:context="com.example.android.tripbuddy.AfterLoginActivity"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/txtsearch"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to the after login sample page. It will be a Venue Search page(after login) just as in foursquare app."
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
+        android:hint="Suchen"
+        />
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
 </LinearLayout>
