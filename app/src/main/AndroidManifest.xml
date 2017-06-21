@@ -19,19 +19,20 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".AfterLoginActivity" />
-        <activity android:name=".VenuePageAcivity" />
-        <activity
-            android:name=".SearchableActivity"
-            android:label="@string/title_activity_searchable"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.SEARCH" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.searchable"
-                android:resource="@xml/searchable" />
-        </activity>
+        <activity android:name=".MyProfileActivity" />
+        <activity android:name=".ChangePasswordA
+        <activity android:name=".VenuePageAcivity"></activity>
     </application>
+    <activity
+        android:name=".SearchableActivity"
+        android:label="@string/title_activity_searchable"
+        android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+        </intent-filter>
 
+        <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable" />
+    </activity>
 </manifest>

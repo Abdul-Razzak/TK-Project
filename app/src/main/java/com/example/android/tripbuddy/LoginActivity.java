@@ -39,11 +39,13 @@ public class LoginActivity extends AppCompatActivity {
                     password.requestFocus();
                 }
 
+/*changed VenuePageActivity intent to LoginActivity intent*/
 
                 if(userError == false && passError == false)
                 {
-                    Intent it=new Intent(getApplicationContext(), VenuePageAcivity.class);
+                    Intent it=new Intent(getApplicationContext(), HomePageActivity.class);
                     startActivity(it);
+
                 }
             }
         });
